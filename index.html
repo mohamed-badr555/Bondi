@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bondi-Web</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,900;1,500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- start home -->
+    <nav class="navbar navbar-expand-lg  sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="imgs/logo.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main"
+                aria-controls="main" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="main">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link p-lg-3  active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-lg-3" href="#Services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-lg-3" href="#Portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-lg-3" href="#About">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-lg-3" href="#Contact">Contact</a>
+                    </li>
+
+
+                </ul>
+                <div class="search px-3 d-none d-lg-block">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <a class="btn main-btn rounded-pill" href="#">Login</a>
+            </div>
+        </div>
+    </nav>
+    <div class="landing d-flex justify-content-center align-items-center">
+        <div class="text-center text-light">
+            <h1>Taste the Creativity</h1>
+            <p class="fs-6 text-white-50 mb-4">We make awesome graphic and web design</p>
+            <a class="btn main-btn rounded-pill" href="index.html">Get Staeted</a>
+        </div>
+    </div>
+    <!-- end home -->
+    <!-- start features -->
+    <div class="features py-5" id="Services">
+        <div class="container">
+            <div class="main-title text-center my-5 position-relative">
+                <img class="mb-4" src="imgs/title.png" alt="icon">
+                <h2>We are Good at</h2>
+                <p class="text-black-50">SOME OF THESE STUFF UNDER</p>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="feat text-center">
+                        <div class="icon-holder position-relative">
+                            <i class="fa-solid fa-1 position-absolute bottom-0 number"></i>
+                            <i class="fa-solid fa-4x  fa-pencil position-absolute bottom-0 icon"></i>
+                        </div>
+                        <h4 class="text-uppercase my-3">Graphic Design</h4>
+                        <p class="lh-lg text-black-50">Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo,
+                            lacinia eget consectetur sed, convallis at tellus.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="feat text-center">
+                        <div class="icon-holder position-relative">
+                            <i class="fa-solid fa-2 position-absolute bottom-0 number"></i>
+                            <i class="fa-solid fa-4x  fa-tv position-absolute bottom-0 icon"></i>
+                        </div>
+                        <h4 class="text-uppercase my-3">Graphic Design</h4>
+                        <p class="lh-lg text-black-50">Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo,
+                            lacinia eget consectetur sed, convallis at tellus.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="feat text-center">
+                        <div class="icon-holder position-relative">
+                            <i class="fa-solid fa-3 position-absolute bottom-0 number"></i>
+                            <i class="fa-solid fa-4x  fa-plug position-absolute bottom-0 icon"></i>
+                        </div>
+                        <h4 class="text-uppercase my-3">Graphic Design</h4>
+                        <p class="lh-lg text-black-50">Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo,
+                            lacinia eget consectetur sed, convallis at tellus.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end features -->
+    <!--start Portifolio  -->
+    <div class="py-5 portfolio" id="Portfolio">
+        <div class="container">
+            <div class="main-title text-center my-5 position-relative">
+                <img class="mb-4" src="imgs/title.png" alt="icon">
+                <h2>We Make This </h2>
+                <p class="text-black-50">PREPARE TO BE AMAZED</p>
+            </div>
+            <div class="projects text-center">
+                <ul class="nav nav-pills justify-content-center  my-5" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link rounded-pill active" id="pills-All-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-All" type="button" role="tab" aria-controls="pills-All"
+                            aria-selected="true">All</button>
+                    </li>
+                    <li class="nav-item " role="presentation">
+                        <button class="nav-link rounded-pill " id="pills-Design-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-Design" type="button" role="tab" aria-controls="pills-Design"
+                            aria-selected="false">Design</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link rounded-pill" id="pills-Code-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-Code" type="button" role="tab" aria-controls="pills-Code"
+                            aria-selected="false">Code</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link rounded-pill" id="pills-Photo-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-Photo" type="button" role="tab" aria-controls="pills-Photo"
+                            aria-selected="false">Photo</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link rounded-pill" id="pills-App-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-App" type="button" role="tab" aria-controls="pills-App"
+                            aria-selected="false">App</button>
+                    </li>
+
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-All" role="tabpanel"
+                        aria-labelledby="pills-All-tab" tabindex="0">
+                        <div class="row g-4">
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div class="imageb position-relative">
+                                    <img class="w-100" src="imgs/work-01.jpg" alt="project">
+                                    <div class="hov">
+                                        Applcation
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div class="imageb position-relative">
+                                    <img class="w-100" src="imgs/work-02.jpg" alt="project">
+                                    <div class="hov">
+                                        Applcation
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div class="imageb position-relative">
+                                    <img class="w-100" src="imgs/work-03.jpg" alt="project">
+                                    <div class="hov">
+                                        Applcation
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div class="imageb position-relative">
+                                    <img class="w-100" src="imgs/work-04.jpg" alt="project">
+                                    <div class="hov">
+                                        Applcation
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div class="imageb position-relative">
+                                    <img class="w-100" src="imgs/work-05.jpg" alt="project">
+                                    <div class="hov">
+                                        Applcation
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div class="imageb position-relative">
+                                    <img class="w-100" src="imgs/work-06.jpg" alt="project">
+                                    <div class="hov">
+                                        Applcation
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div class="imageb position-relative">
+                                    <img class="w-100" src="imgs/work-07.jpg" alt="project">
+                                    <div class="hov">
+                                        Applcation
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div class="imageb position-relative">
+                                    <img class="w-100" src="imgs/work-08.jpg" alt="project">
+                                    <div class="hov">
+                                        Applcation
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <a href="#" class="text-uppercase mt-5  rounded-pill text-decoration-none btn more">I want
+                            More</a>
+                    </div>
+                    <div class="tab-pane fade" id="pills-Design" role="tabpanel" aria-labelledby="pills-Design-tab"
+                        tabindex="0">
+                        <div class="row g-4">
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div class="imageb position-relative">
+                                    <img class="w-100" src="imgs/work-01.jpg" alt="project">
+                                    <div class="hov">
+                                        Applcation
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div class="imageb position-relative">
+                                    <img class="w-100" src="imgs/work-02.jpg" alt="project">
+                                    <div class="hov">
+                                        Applcation
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div class="imageb position-relative">
+                                    <img class="w-100" src="imgs/work-03.jpg" alt="project">
+                                    <div class="hov">
+                                        Applcation
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div class="imageb position-relative">
+                                    <img class="w-100" src="imgs/work-04.jpg" alt="project">
+                                    <div class="hov">
+                                        Applcation
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div class="imageb position-relative">
+                                    <img class="w-100" src="imgs/work-05.jpg" alt="project">
+                                    <div class="hov">
+                                        Applcation
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-Code" role="tabpanel" aria-labelledby="pills-Code-tab"
+                        tabindex="0">
+                        <div class="row g-4">
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div class="imageb position-relative">
+                                    <img class="w-100" src="imgs/work-01.jpg" alt="project">
+                                    <div class="hov">
+                                        Applcation
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div class="imageb position-relative">
+                                    <img class="w-100" src="imgs/work-02.jpg" alt="project">
+                                    <div class="hov">
+                                        Applcation
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div class="imageb position-relative">
+                                    <img class="w-100" src="imgs/work-08.jpg" alt="project">
+                                    <div class="hov">
+                                        Applcation
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-Photo" role="tabpanel" aria-labelledby="pills-Photo-tab"
+                        tabindex="0">
+
+                        <div class="row g-4">
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div class="imageb position-relative">
+                                    <img class="w-100" src="imgs/work-01.jpg" alt="project">
+                                    <div class="hov">
+                                        Applcation
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div class="imageb position-relative">
+                                    <img class="w-100" src="imgs/work-02.jpg" alt="project">
+                                    <div class="hov">
+                                        Applcation
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div class="imageb position-relative">
+                                    <img class="w-100" src="imgs/work-03.jpg" alt="project">
+                                    <div class="hov">
+                                        Applcation
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-App" role="tabpanel" aria-labelledby="pills-App-tab"
+                        tabindex="0">
+                        <div class="row g-4">
+
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div class="imageb position-relative">
+                                    <img class="w-100" src="imgs/work-08.jpg" alt="project">
+                                    <div class="hov">
+                                        Applcation
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--end Portifolio  -->
+    <!-- start About -->
+    <div class="about pt-5 " id="About">
+        <div class="container">
+            <div class="main-title text-center my-5 position-relative">
+                <img class="mb-4" src="imgs/title.png" alt="icon">
+                <h2>Some Stuff About Us </h2>
+                <p class="text-black-50">THE GREAT TEAM </p>
+            </div>
+            <div class="about-text w-50 position-relative m-auto  mb-5 text-center ">
+                Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie
+                malesuada.
+            </div>
+            <div class="row align-items-center gy-3">
+                <div class="col-lg-4 ">
+                    <div class="content-about ">
+                        <h3>Retina Design</h3>
+                        <p class="mb-2">Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris
+                            blandit aliquet elit, eget tincidunt nibh pulvinar a.</p>
+                        <p>Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh
+                            pulvinar a. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec
+                            sollicitudin molestie malesuada.</p>
+                        <a href="#" class="btn main-btn text-decoration-none rounded-pill">ORDER ME ONE</a>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="content-about">
+                        <img src="imgs/laptop.png" class="w-100" alt="laptop">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End About -->
+
+    <!-- start Blog -->
+    <div class="blog py-5">
+        <div class="container">
+            <div class="main-title text-center my-5 position-relative">
+                <img class="mb-4" src="imgs/title.png" alt="icon">
+                <h2>Read Our Blog </h2>
+                <p class="text-black-50">NEW STORIES </p>
+            </div>
+            <div class="blog-blox">
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="content-blog rounded shadow-sm">
+                            <div class="imgblog">
+                                <img src="imgs/blog-1.jpg" class="w-100 mb-2 rounded-top" alt="blog">
+                            </div>
+                            <div class="blogword p-2">
+                                <h6>Jan 17, 2022</h6>
+                                <p class="pb fs-5 my-2">Some Awesome Blog Title Here</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="content-blog rounded shadow-sm">
+                            <div class="imgblog">
+                                <img src="imgs/blog-2.jpg" class="w-100 mb-2 rounded-top" alt="blog">
+                            </div>
+                            <div class="blogword p-2">
+                                <h6>Jan 17, 2022</h6>
+                                <p class="pb fs-5 my-2">Some Awesome Blog Title Here</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="content-blog rounded shadow-sm">
+                            <div class="imgblog">
+                                <img src="imgs/blog-3.jpg" class="w-100 mb-2 rounded-top" alt="blog">
+                            </div>
+                            <div class="blogword p-2">
+                                <h6>Jan 17, 2022</h6>
+                                <p class="pb fs-5 my-2">Some Awesome Blog Title Here</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="blog-link text-center">
+                    <a href="#" class="btn main-btn   my-4 text-decoration-none rounded-pill">MORE STORIES</a>
+
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <!-- End Blog -->
+    <!-- start Contact -->
+    <div class="contact py-4" id="Contact">
+        <div class="container">
+            <div class="row gx-0 align-items-center">
+                <div class="col-lg-4 col-md-6 justify-content-end"> 
+                  <h5>Subscribe to our Newsletter:</h5>
+                </div>
+                <div class="col-lg-6 col-md-6 "> 
+                  
+                        <div class="form-floating mb-3 text-white bbottom">
+                            <input type="email" class="form-control" id="floatingInput1" placeholder="name@example.com">
+                            <label for="floatingInput1" class="fs-4">Email address</label>
+                          </div>
+                   
+                </div>
+                <div class="col-lg-2 col-md-6"> 
+                    <div class="blog-link ">
+                        <a href="#" class="btn main-btn   my-4 text-decoration-none rounded-pill">Submit</a>
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Contact -->
+    <!-- start Footer -->
+
+    <!-- End Footer -->
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/all.min.js"></script>
+</body>
+
+</html>
